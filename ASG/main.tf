@@ -26,6 +26,6 @@ resource "aws_autoscaling_group" "bar" {
     version = "$Latest"
   }
   
-  #vpc_zone_identifier       = [aws_subnet.example1.id, aws_subnet.example2.id]
+  vpc_zone_identifier       = var.vpc_zone
 
 }
