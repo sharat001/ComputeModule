@@ -25,3 +25,8 @@ variable "capacity" {
     type = number
 }
 
+ variable "vpc_zone_identifier" {
+     type = string
+     
+ } 
+
